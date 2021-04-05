@@ -1,0 +1,701 @@
+body{
+    font-size: 20px;
+    line-height: 1.8;
+    color: #f5f6f7;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+a{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+h4,h5{
+    line-height: 2;
+}
+h2{
+    line-height: 1.5;
+    margin: 0 !important;
+}
+
+.introtext02{
+    width: 250px;
+    height: 2px;
+    border: 2px solid #30e291;
+    display: inline-block;
+}
+
+
+/* .intro01::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    border: 2px solid #30e291;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: -200px;
+
+} */
+
+#nav>li{
+    padding: 0 20px;
+}
+
+.margin{
+    margin-bottom: 45px;
+}
+
+.container-fluid{
+    width: 90%;
+}
+.empty2{
+    width: 100%;
+    height: 200px;
+}
+
+.empty{
+    width: 100%;
+    height: 150px;
+}
+
+.main>img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m-main{
+    display: none;
+}
+
+
+
+
+.navbar{
+    padding: 20px 0;
+}
+
+.sectionimg{
+    width: 100%;
+}
+
+.sectionimg>img{
+    width: 100%;
+    height: 100%;
+}
+
+.sectiontext{
+    width: 100%;
+}
+
+.t-section{
+    display: none;
+}
+
+
+.apptext{
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.store1{
+    font-size: 22px;
+}
+.store2{
+    font-size: 22px;
+}
+
+.store1:hover{
+    background-color: #30e291 !important;;
+    border: 1px solid #30e291 !important;
+}
+
+.downloadbutton{
+    padding-top: 20px;
+}
+
+.store1{
+    padding: 20px;
+    margin: 20px;
+}
+
+.store2{
+    padding: 20px 31px;
+    margin: 20px;
+}
+
+.store1::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/googleplay.svg);
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 8px;
+}
+
+.store2:hover{
+    background-color: #30e291 !important;
+    border: 1px solid #30e291 !important;
+    color: #fff;
+}
+
+.store2::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-image: url(../images/appstore.svg);
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 8px;
+}
+
+/* guide */
+
+.guide{
+    width: 100%;
+    height: 800px;
+    background: url(../images/guide.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -999;
+}
+
+.guidebutton:hover{
+    background-color: #30e291 !important;
+    border: 1px solid #30e291 !important;
+    color: #fff;
+}
+
+.guide-text{
+    padding-top: 200px;
+}
+
+/* guide css end */
+
+
+.qna01{
+    position: absolute;
+    width: 70%;
+}
+
+.qnaimg{
+    width: 70%;
+    z-index: -1;
+}
+
+.qnaimg>img{
+    width: 70%;
+}
+
+.qnatext{
+    width: 70%;
+    font-weight: 600;
+}
+
+.qnatext>p{
+    font-size: 22px !important;
+}
+
+footer{
+   height: 200px; 
+   border-top: 2px solid #c6c6c6;
+}
+
+.infolist{
+    padding-left: 0 !important;
+}
+
+.infolist>li>a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.infolist>li+li::before{
+    content:"";
+    margin: 10px 30px;
+    border: 1px solid #c6c6c6;
+    display: inline-block;
+    height: 18px;
+    vertical-align: text-top;
+    opacity: 0.6;
+}
+
+.infolist>li:hover a{
+    color: #30e291 !important;
+    text-decoration: none;
+}
+
+.infotext{
+    font-size: 16px;
+    line-height: 1;
+}
+
+.sns{
+    align-items: center;
+}
+
+.sns::before{
+    content:"";
+    margin: 10px 30px;
+    border: 1px solid #c6c6c6;
+    display: inline-block;
+    height: 100px;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+@media(max-width:1200px){
+
+    #nav>li{
+        padding: 0;
+    }
+
+    .intro01,
+    .intro03{
+        justify-content: center !important;
+    }
+
+    .introtext01>h4{
+        margin: 0 !important;
+    }
+
+    .introtext02>h5{
+        margin: 0 !important;
+    }
+
+    .introtext02{
+            width: 1px;
+            height: 40px;
+            margin: 15px 0;
+            border: 2px solid #30e291;
+            display: inline-block;
+    }
+
+
+    .intro>h4::after{
+        content: "";
+        width: 1px;
+        height: 20px;
+        border: 2px solid #30e291;
+        display: inline-block;
+    }
+
+    .sectionimg{
+        margin: 0 !important;
+    }
+
+    .guide{
+        height: 600px;
+    }
+
+    .sns::before{
+        display: none;
+    }
+
+    .footer{
+        flex-wrap: wrap-reverse;
+    }
+
+    .infolist{
+        justify-content: center;
+        align-self: center;
+    }
+    .infotext{
+        text-align: center;
+    }
+    .guide-text{
+        padding-top: 100px;
+    }
+
+}
+
+@media(max-width:1199px){
+    .section2{
+        padding-top: 50px !important;
+    }
+    .introtext01{
+        text-align: center;
+    }
+    .introtext03{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+@media(max-width:991px){
+
+    .empty,
+    .empty2{
+        display: none;
+    }
+
+
+    .section01-text>h2,
+    .section02-text>h2,
+    .section03-text>h2,
+    .section04-text>h2{
+        font-size: 26px !important;
+    }
+
+    .guide{
+        height: 500px;
+    }
+
+
+
+    .qna01{
+        text-align: center;
+        bottom: 10px;
+    }
+
+    .qnaimg{
+        text-align: center;
+    }
+
+    .qnatext{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .qna{
+        padding: 40px 0;
+    }
+
+}
+
+
+
+
+@media(max-width:768px){
+
+    .main{
+        display: none;
+    }
+
+    .m-main{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    .m-main>img{
+        width: 100%;
+        height: 100%;
+        background-position: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sectionimg{
+        display: none !important;
+    }
+
+    .t-section{
+        display: block;
+        margin: 0 !important;
+    }
+
+    .section02-text{
+        text-align: end;
+    }
+    .section04-text{
+        text-align: end;
+    }
+
+
+}
+
+@media(max-width:767px){
+
+    .downloadtext>h3{
+        font-size: 22px;
+    }
+
+    .downloadtext>p{
+        font-size: 16px;
+    }
+
+    .guide{
+        height: 400px;
+    }
+
+    .store1{
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .store2{
+        padding: 10px 21px;
+        margin: 20px;
+    }
+
+    .downloadbutton{
+        padding-bottom: 30px;
+    }
+
+    .qna01>h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .qnaimg>img{
+        width: 60%;
+    }
+
+    .qnatext>p{
+        font-size: 16px !important;
+    }
+
+}
+
+
+@media(max-width:575px){
+
+    .ghostmenu{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .downloadbutton{
+        flex-wrap: wrap;
+    }
+
+    .downloadbutton1{
+        justify-content: center !important;
+    }
+    .downloadbutton2{
+        justify-content: center !important;
+    }
+
+    .store1{
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .store2{
+        margin: 0;
+        padding: 20px 31px;
+    }
+
+    .appimg>img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .guide{
+        height: 300px;
+    }
+
+    .guide-text{
+        padding-top: 30px;
+    }
+
+    .guide-text>h3{
+        font-size: 22px;
+    }
+
+    .guide-text>p{
+        font-size: 14px;
+    }
+
+    .guidebutton{
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+@media(max-width:533px){
+    .qna01>h2{
+        font-size: 20px;
+    }
+
+    .qnatext>p{
+        font-size: 14px !important;
+    }
+
+    .infolist>li+li::before{
+        content:"";
+        margin: 0px 6px;
+        border: 1px solid #c6c6c6;
+        display: inline-block;
+        height: 16px;
+        vertical-align: middle;
+        opacity: 0.8;
+    }
+
+    .infotext{
+        font-size: 14px;
+        line-height: 1 !important;
+    }
+
+
+
+
+}
+
+@media(max-width:489px){
+    .downloadtext>h3{
+        font-size: 18px !important;
+    }
+
+    .downloadtext>p{
+        font-size: 14px !important;
+    }
+
+
+}
+
+@media(max-width:450px){
+    .guide{
+        height: 200px;
+    }
+    .guide-text{
+        padding-top: 10px;
+    }
+    .guide-text>h3{
+        padding-bottom: 10px;
+
+    }
+
+    .guide-text>p{
+        padding: 0 !important;
+    }
+
+}
+
+
+@media(max-width:395px){
+    .navbar-brand{
+        width: 70%;
+    }
+
+    .navbar-brand>img{
+        width: 90%;
+    }
+
+}
+
+@media(max-width:375px){
+    .introtext01>h4{
+        font-size: 20px !important;
+    }
+
+    .introtext03>h5{
+        font-size: 14px !important;
+    }
+
+
+    .section01-text,
+    .section02-text,
+    .section03-text,
+    .section04-text{
+        width: 100% !important;
+    }
+
+    .section01-text>h2{
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+
+    .section01-text>p{
+        font-size: 13px !important;
+        font-weight: 500;
+    }
+
+    .section02-text>h2{
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+
+    .section02-text>p{
+       
+        font-size: 13px !important;
+        font-weight: 500;
+    }
+
+    .section03-text>h2{
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+
+    .section03-text>p{
+        padding-top: 0 !important;
+        font-size: 13px !important;
+        font-weight: 500;
+    }
+
+    .section04-text>h2{
+        font-size: 20px !important;
+        font-weight: 600;
+    }
+
+    .section04-text>p{
+        font-size: 13px !important;
+        font-weight: 500;
+    }
+    .downloadtext>p{
+        font-size: 12px !important;
+    }
+
+    .guide{
+        height: 180px;
+    }
+
+    .guide-text{
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    .guide-text>h3{
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 20px !important;
+    }
+
+    .guide-text>p{
+        padding-left: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .guidebutton{
+        margin-left: 10px !important;
+    }
+
+}
+
+
+
+
+
